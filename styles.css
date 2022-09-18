@@ -4,3 +4,42 @@ body h1 {
     color: yellowgreen;
     text-align: center;
 }
+
+body {
+    background-color: palegreen;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.second-background {
+    background-color: palevioletred;
+    border: 1px purple solid;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.grid {
+    background-color: white;
+    border: 1px purple solid;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding: 270px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bw, .multicolor, .erase {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
